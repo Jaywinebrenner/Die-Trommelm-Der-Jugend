@@ -24,3 +24,47 @@ a {
     background: black;
   }
 }
+
+.home h1 {
+  font-size: 12.5vw;
+  margin: 0;
+  text-align: center;
+  line-height: 1;
+font-weight: 800;
+}
+
+.nav {
+  display: flex;
+}
+.home {
+  position: relative;
+}
+.home .nav img {
+  width: 30vw;
+  background-color: red;
+}
+
+.home .nav .nav-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+.home .nav .nav-link:hover  {
+  transition: all .2s ease-in-out;
+}
+.home .nav .nav-link:hover  {
+  transform: scale(1.05);
+  transition: all .2s ease-in-out;
+}
+
+
+.home .global-lang-button {
+  position: absolute;
+  right: -7px;
+  transform: rotate(90deg);
+  margin: auto;
+  top: 50%;
+  background: maroon;
+  padding: 0 10px;
+}
