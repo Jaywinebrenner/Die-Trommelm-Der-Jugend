@@ -113,9 +113,9 @@ const Lyrics = () => {
                   )
                 })}</div>}
 
-               {!english && <div key={`modal-lyric-two=${i}`}>{item.german.map((lyric)=> {
+               {!english && <div key={`modal-lyric-two=${i}`}>{item.german.map((lyric, i)=> {
                   return (
-                  <h3 className='modal-lyric-line'>{lyric}</h3>
+                  <h3 key={`lyric-two-key=${i}`} className='modal-lyric-line'>{lyric}</h3>
                   )
                 })}</div>}
 
