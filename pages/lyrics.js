@@ -6,7 +6,7 @@ import { lyricsObject } from '../util/lyricsObject';
 
 
 
-const Lyrics = () => {
+const Lyrics = ({englishShowingGlobal}) => {
 
   const [english, setEnglish ] = useState(true)
   const [isMobile, setIsMobile] = useState(false);
@@ -90,9 +90,9 @@ const Lyrics = () => {
               >
 
                 <div className='controls-wrapper'>
-                  <div className='lang-btn-wrapper'>
+                  {/* <div className='lang-btn-wrapper'>
                     <button className='lang-btn' onClick={() => toggleLanguage()}>{english ? "DEUTSCH" : "ENGLISH"}</button>
-                  </div>
+                  </div> */}
                   <div className='next-wrapper'><img onClick={()=> nextModal(i)} src="/arrow.png"/></div>
                   <div className='x-wrapper'><h2 onClick={closeModal}>X</h2></div>
                 </div>
@@ -107,13 +107,13 @@ const Lyrics = () => {
                 </div>
   
                 <h2 className='modal-lyric-title'>{item.title}</h2>
-                {english && <div>{item.english.map((lyric, i)=> {
+                {englishShowingGlobal && <div>{item.english.map((lyric, i)=> {
                   return (
                   <h3 key={`modal-lyric=${i}`} className='modal-lyric-line'>{lyric}</h3>
                   )
                 })}</div>}
 
-               {!english && <div key={`modal-lyric-two=${i}`}>{item.german.map((lyric, i)=> {
+               {!englishShowingGlobal && <div key={`modal-lyric-two=${i}`}>{item.german.map((lyric, i)=> {
                   return (
                   <h3 key={`lyric-two-key=${i}`} className='modal-lyric-line'>{lyric}</h3>
                   )

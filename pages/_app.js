@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <div>
-      <div style={{right: englishShowingGlobal ? "-12px" : "-12!important"}} className='global-lang-button' onClick={()=> setEnglishShowing(prev => !prev)}><p>{!englishShowingGlobal ? "ENGLISH" : "DEUTSCH"}</p></div>
+      <div style={{right: englishShowingGlobal ? "-31px" : "-31!important"}} className='global-lang-button' onClick={()=> setEnglishShowing(prev => !prev)}><p>{!englishShowingGlobal ? "ENGLISH" : "DEUTSCH"}</p></div>
     <Nav englishShowingGlobal={englishShowingGlobal}/>
       <Component {...pageProps} englishShowingGlobal={englishShowingGlobal} />
     </div>

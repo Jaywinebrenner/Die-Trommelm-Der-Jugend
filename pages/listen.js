@@ -13,8 +13,9 @@ const Listen = ({englishShowingGlobal}) => {
                     Your browser does not support the
                     <code>audio</code> element.
                 </audio>
+                <p>Die Trommeln Der Jugend - Harlequin Defibrillator</p>
             </div>
-            <h3>{!englishShowingGlobal ? "OR FIND THE MUSIC BY CLICKING THE FAVORITE CORPORATION ICON BELOW YOU" : "STREAMEN SIE DAS ALBUM IN SEINER VOLLSTÄNDIGKEIT HIER"}</h3>
+            <h3>{!englishShowingGlobal ? "OR FIND THE MUSIC BY CLICKING THE FAVORITE CORPORATION ICON BELOW YOU" : "ODER SUCHEN SIE DIE MUSIK, INDEM SIE UNTEN AUF DAS LIEBLINGS-UNTERNEHMENSSYMBOL KLICKEN"}</h3>
             <div className="icon-wrapper">
                 <a target="_blank" rel="noreferrer" href="https://bandcamp.com" className="img-wrapper">
                     <img  src="/bc.png" />
