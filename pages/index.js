@@ -25,7 +25,7 @@ export default function Index({englishShowingGlobal}) {
           </div>
         </div>
         <div className='home__cta'>
-          <h1>{englishShowingGlobal ? "PRESENTS" : "DIE GESCHENKI"}</h1>
+          <h1>{englishShowingGlobal ? "PRESENTS" : "präsentiert PRÄSENTIERT"}</h1>
           <h1>HARLEQUIN DEFIBRILLATOR</h1>
         </div>
         <div className="home__art">
