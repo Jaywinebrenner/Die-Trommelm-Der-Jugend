@@ -16,16 +16,16 @@ const Listen = ({englishShowingGlobal}) => {
             </div>
             <h3>{!englishShowingGlobal ? "OR FIND THE MUSIC BY CLICKING THE FAVORITE CORPORATION ICON BELOW YOU" : "STREAMEN SIE DAS ALBUM IN SEINER VOLLSTÄNDIGKEIT HIER"}</h3>
             <div className="icon-wrapper">
-                <a target="_blank" href="https://bandcamp.com" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://bandcamp.com" className="img-wrapper">
                     <img  src="/bc.png" />
                 </a>
-                <a target="_blank" href="https://youtube.com" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://youtube.com" className="img-wrapper">
                     <img className="youtube" src="/YT.png" />
                 </a>
-                <a target="_blank" href="https://youtube.com" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://youtube.com" className="img-wrapper">
                     <img className="youtube" src="/spotify.png" />
                 </a>
-                <a target="_blank" href="https://soundcloud.com" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jaywinebrenner-dietrommelnderjugend/albums" className="img-wrapper">
                     <img className="youtube" src="/sc.png" />
                 </a>
             </div>
