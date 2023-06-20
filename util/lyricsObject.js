@@ -530,7 +530,7 @@ export const lyricsObject = [
             "The corn is delicious",
             "One point for me and one you." ,
             "But the plague has all the points",
-            "And the Plague for me and you"
+            "And the Plague is for me and you"
 
         ],
         german: [
