@@ -25,11 +25,11 @@ export const lyricsObject = [
     {
         title: "Republik der Twerps",
         english: [
-            "breakfast",
-            "lunch",
-            "dinner",
-            "bedtime",
-            "nightmares",
+            "Breakfast",
+            "Lunch",
+            "Dinner",
+            "Bedtime",
+            "Nightmares",
             "Squeeze the corn",
             "Fry the eagle’s egg",
             "Bake the last bear",
