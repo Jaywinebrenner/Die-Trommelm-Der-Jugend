@@ -43,7 +43,7 @@ export const lyricsObject = [
             "Plentiful napkins forever",
             "Suppertime in the republic of twerps",
             "Break",
-            "Applepie made from mucus?" ,
+            "Apple pie made from mucus?" ,
             "You deserve a break today",
             "But you won’t get one",
             "Dinner in the republic of Twerps",
