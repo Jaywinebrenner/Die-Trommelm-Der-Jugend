@@ -342,7 +342,7 @@ export const lyricsObject = [
     {
         title: "Harlequin Defibrillator",
         english: [
-            "1, 3, 3, 4",
+            "1, 2, 3, 4",
             "Harlequin Defibrillator",
         ],
         german: [
