@@ -387,7 +387,7 @@ export const lyricsObject = [
             "Breast milk",
             "Hay milk",
             "Heather milk",
-            "long shelf life milk",
+            "Long shelf life milk",
             "Organic milk",
             "Pasture milk",
             "Landmilk",
