@@ -12,6 +12,7 @@ const Lyrics = ({englishShowingGlobal}) => {
   const [isMobile, setIsMobile] = useState(false);
   const [clickedIndex, setClickedIndex] = useState();
   const [modalOpen, setModalOpen] = useState(false);
+  const [prevArrowVisible, setPrevArrowVisible] = useState();
 
   useEffect(() => {
     const checkIfMobile = () => {
@@ -47,6 +48,7 @@ const Lyrics = ({englishShowingGlobal}) => {
       inset: isMobile ? "0" : ''
     }
   };
+
   
   function openModal(indexFromUtil) {
     setClickedIndex(indexFromUtil);
@@ -57,21 +59,27 @@ const Lyrics = ({englishShowingGlobal}) => {
     setClickedIndex()
     setModalOpen(false)
   }
-  const toggleLanguage = () => {
-    setEnglish(prevCheck => !prevCheck)
-  }
 
   const nextModal = () => {
     let lastElement = lyricsObject.length - 1;
+    console.log("last el", lastElement)
+    console.log("clickedIndex", clickedIndex)
 
+    if(clickedIndex === lastElement){
+      setClickedIndex(0)
+    } else {
+      setClickedIndex(clickedIndex + 1)
+    }
+  }
+
+  const prevModal = () => {
+    let lastElement = lyricsObject.length - 1;
     console.log("last el", lastElement)
     console.log("clickedIndex", clickedIndex)
     if(clickedIndex === lastElement){
       setClickedIndex(0)
-      // setClickedIndex(0)
     } else {
-      setClickedIndex(clickedIndex + 1)
-
+      setClickedIndex(clickedIndex - 1)
     }
   }
 
@@ -85,16 +93,20 @@ const Lyrics = ({englishShowingGlobal}) => {
                 isOpen={clickedIndex === i ? true : false}
                 onRequestClose={closeModal}
                 style={customStyles}
-                // className="Modal"
-                // overlayClassName="Overlay"
               >
 
                 <div className='controls-wrapper'>
-                  {/* <div className='lang-btn-wrapper'>
-                    <button className='lang-btn' onClick={() => toggleLanguage()}>{english ? "DEUTSCH" : "ENGLISH"}</button>
-                  </div> */}
-                  <div className='next-wrapper'><img onClick={()=> nextModal(i)} src="/arrow.png"/></div>
-                  <div className='x-wrapper'><h2 onClick={closeModal}>X</h2></div>
+                  <div className='x-wrapper'>
+                    <h2 onClick={closeModal}>X</h2>
+                  </div>
+                  <div className='arrows-wrapper'>
+                    <div className='next-wrapper'>
+                      <img className='prev' onClick={()=> prevModal(i)} src="/arrow.png"/>
+                    </div>
+                    <div className='next-wrapper'>
+                      <img onClick={()=> nextModal(i)} src="/arrow.png"/>
+                    </div>
+                  </div>
                 </div>
                 <div className='audio-wrapper'>
                   <audio

@@ -48,9 +48,13 @@ h1, h2, h3 a {
     @media(max-width: 800px){
         padding: 10px;
     }
-    .x-wrapper {
+    .arrows-wrapper {
         display: flex;
         justify-content: end;
+    }
+    .x-wrapper {
+        display: flex;
+        // justify-content: end;
         h2 {
             // position: absolute;
             // right: 50px;
@@ -62,15 +66,17 @@ h1, h2, h3 a {
                 opacity: .6;
             }
             @media(max-width: 800px){
-                // right: 20px;
-                // top: 20px;
+
                 font-size: 3rem;
             }
         }
     }
     .next-wrapper {
         display: flex;
-
+        justify-content: end;
+        .prev {
+            transform: rotate(180deg);
+        }
         img {
             // position: absolute;
             width: 50px;

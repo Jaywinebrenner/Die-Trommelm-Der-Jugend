@@ -1,8 +1,6 @@
 const Listen = ({englishShowingGlobal}) => {
     return (
         <div className="listen">
-            {/* <h3>DIE TROMMELN DER JUGEND</h3>
-            <h3>HARELQUIN DEFIBRILLATOR</h3> */}
             <h3>{englishShowingGlobal ? "STREAM THE MUSIC IN COMPLETE TOTALITY RIGHT HERE WITH THIS WEB AUDIO INTERFACE" : "STREAMEN SIE DAS ALBUM IN SEINER VOLLSTÄNDIGKEIT HIER"}</h3>
  
             <div className='audio-wrapper'>
