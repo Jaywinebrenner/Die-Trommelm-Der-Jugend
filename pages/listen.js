@@ -24,7 +24,7 @@ const Listen = ({englishShowingGlobal}) => {
                 <a target="_blank" rel="noreferrer" href="https://youtube.com" className="img-wrapper">
                     <img className="youtube" src="/spotify.png" />
                 </a>
-                <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jaywinebrenner-dietrommelnderjugend/albums" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jaywinebrenner-dietrommelnderjugend/sets/die-trommeln-der-jugend" className="img-wrapper">
                     <img className="youtube" src="/sc.png" />
                 </a>
             </div>
