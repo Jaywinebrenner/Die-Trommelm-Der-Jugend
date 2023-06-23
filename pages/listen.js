@@ -15,7 +15,7 @@ const Listen = ({englishShowingGlobal}) => {
             </div>
             <h3>{englishShowingGlobal ? "OR FIND THE MUSIC BY CLICKING THE FAVORITE CORPORATION ICON BELOW YOU" : "ODER SUCHEN SIE DIE MUSIK, INDEM SIE UNTEN AUF DAS LIEBLINGS-UNTERNEHMENSSYMBOL KLICKEN"}</h3>
             <div className="icon-wrapper">
-                <a target="_blank" rel="noreferrer" href="https://bandcamp.com" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://dietrommelnderjugend.bandcamp.com/" className="img-wrapper">
                     <img  src="/bc.png" />
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://youtube.com" className="img-wrapper">
