@@ -7,7 +7,7 @@ const Listen = ({englishShowingGlobal}) => {
                 <audio
                 controls
                 controlsList="nodownload"
-                src="/album/Die-Pest.mp3">
+                src="/album/Album-One-Track.mp3">
                     Your browser does not support the
                     <code>audio</code> element.
                 </audio>

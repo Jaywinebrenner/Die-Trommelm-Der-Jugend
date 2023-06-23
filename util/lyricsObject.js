@@ -20,7 +20,7 @@ export const lyricsObject = [
             "Nordatlantische Vertrags Obliteration",
             "Nordatlantische Vertrag Kanalisation",
     ],
-        audioUrl: "/album/NATO.mp3"
+        audioUrl: "/album/N.A.T.O..mp3"
     },
     {
         title: "Republik der Twerps",
@@ -100,7 +100,8 @@ export const lyricsObject = [
             "Ja!",
             "Das ist besser, mein Freund!",
             "Wir sind alle little Doms, nicht wahr?"
-        ]
+        ],
+        audioUrl: "/album/Doms.mp3"
     },
     {
         title: "Hand",
@@ -136,7 +137,8 @@ export const lyricsObject = [
             "Engels Hand",
             "Maschinen Hand",
             "Atom Hand ",
-        ]
+        ],
+        audioUrl: "/album/Hand.mp3"
     },
     {
         title: "Scheisse Klein",
@@ -176,7 +178,8 @@ export const lyricsObject = [
             "Mein kleiner ein",
             "Mit dem Meister",
             "Kleinen Schein"
-        ]
+        ],
+        audioUrl: "/album/Scheisse-Klein.mp3"
     },
     {
         title: "Bedenke Dies",
@@ -208,7 +211,8 @@ export const lyricsObject = [
             "Ahh, ich sollte diese Dinge berücksichtigen",
             "Ich werde diese Dinge berücksichtigen",
             "SIE werden diese Dinge berücksichtigen"
-        ]
+        ],
+        audioUrl: "/album/Bedenke-Dies.mp3"
     },
     {
         title: "Sabische Symbole",
@@ -218,8 +222,6 @@ export const lyricsObject = [
             "A stolen mannequin is used for target practice.",
             "A bandaged finger presses a doorbell.",
             "A rattle snake with two heads coils its body to spell the name, 'Sandra'."
-
-
         ],
         german: [
             "Eine Taube baut ihr Haus aus veralteten Telefonkabeln.",
@@ -228,7 +230,8 @@ export const lyricsObject = [
             "Ein bandagierter Finger drückt auf eine Türklingel.",
             "Eine Rasselschlange mit zwei Köpfen windet sich, um den Namen 'Sandra'"
 
-        ]
+        ],
+        audioUrl: "/album/Sabische-Symbole.mp3"
     },
     {
         title: "Apothekenglocken",
@@ -239,9 +242,6 @@ export const lyricsObject = [
             "Tap your toes to the beat of the pharmacy bells.",
             "You feel like a puke because your nipples are flaking like artichokes.",
             "Stand with your chest next to the vibration of the pharmacy bells."
-
-
-
         ],
         german: [
             "Dein Mund ist knochentrocken denn die Zukunft hat dich erschrocken.",
@@ -250,7 +250,8 @@ export const lyricsObject = [
             "Tippe mit den Zehen im Takt der Apothekenglocken.",
             "Du fühlst dich wie ein Kotzbrocken weil deine Brustwarzen schuppen wie Artischocken. ",
             "Stellen dich mit der Brust neben die Vibration der Apothekenglocken."
-        ]
+        ],
+        audioUrl: "/album/Apothekenglocken.mp3"
     },
     {
         title: "Verbunden",
@@ -263,8 +264,6 @@ export const lyricsObject = [
             "The Windows system is connected to the Skull Grid.",
             "The Skull Grid is connected to the Smart Boot.",
             "The Smart Boot is connected to the foot skull."
-
-
         ],
         german: [
             "Der Fußschädel ist mit dem Beinschädel verbunden." ,
@@ -276,7 +275,8 @@ export const lyricsObject = [
             "Das Windows-System ist mit dem Skull Grid verbunden. ",    
             "Das Skull Grid ist mit dem Smart Boot verbunden.  "     ,     
             "Der Smart Boot ist mit dem Fußschädel verbunden."
-        ]
+        ],
+        audioUrl: "/album/Verbunden.mp3"
     },
     {
         title: "Roy Zwei",
@@ -337,7 +337,8 @@ export const lyricsObject = [
             "The death of our best men is not the end!",
             "The proof is here within my love nest",
             "Roy Orbison lives again!"
-        ]
+        ],
+        audioUrl: "/album/Roy-Zwei.mp3"
     },
     {
         title: "Harlequin Defibrillator",
@@ -348,7 +349,8 @@ export const lyricsObject = [
         german: [
             "1, 2, 3, 4",
             "Harlequin Defibrillator",
-        ]
+        ],
+        audioUrl: "/album/Harlequin-Defibrillator.mp3"
     },
     {
         title: "Die Unbestreitbaren Vorteile von Milch Gegenüber Wein ",
@@ -401,8 +403,6 @@ export const lyricsObject = [
             "Bring me the milk!",
             "Milk",
             "Wine, milk, wine, milk, wine, milk...",
-            
-
         ],
         german: [
             "Riesling",
@@ -450,7 +450,8 @@ export const lyricsObject = [
             "Bring mir die Milch",
             "Milch",
             "Wein, Milch, Wein , Milch, Wein, Milch..."
-        ]
+        ],
+        audioUrl: "/album/Die-Unbestreitbaren-Vorteile-von-Milch-Gegenüber-Wein.mp3"
     },
     {
         title: "Nordstream Pipeline",
@@ -502,7 +503,8 @@ export const lyricsObject = [
             "Rettet uns mit seinen...",
             "Saugnäpfen!",
             "Nord Stream Pipeline!",
-        ]
+        ],
+        audioUrl: "/album/Nord-Stream-Pipeline.mp3"
     },
     {
         title: "Goldene Groschen",
@@ -519,7 +521,8 @@ export const lyricsObject = [
             "Eine mit beigem Leder behandschuhte Hand drückt rautenförmige Knöpfe in einem merkwürdigen sequentiellen Muster",
             "Ein leises Summen mechanistischer Zahnräder berechnet komplexe Transaktionen",
             "Goldene Groschen"
-        ]
+        ],
+        audioUrl: "/album/Goldene-Groschen.mp3"
     },
     {
         title: "Die Pest",
@@ -541,7 +544,8 @@ export const lyricsObject = [
             "Ein Punkt für mich und einer für dich.",
             "Aber die Pest hat alle Punkte",
             "Das ist für mich und dich"
-        ]
+        ],
+        audioUrl: "/album/Die-Pest.mp3"
     },
     {
         title: "Gehirnkühlschrank",
@@ -589,6 +593,7 @@ export const lyricsObject = [
             "Gehirnkühlschrank",
             "Ovum"
             
-        ]
+        ],
+        audioUrl: "/album/Gehirnkühlschrank.mp3"
     },
 ]
