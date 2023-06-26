@@ -29,7 +29,7 @@ export default function Index({englishShowingGlobal}) {
           <h1>HARLEQUIN DEFIBRILLATOR</h1>
         </div>
         <div className="home__art">
-            <img src="/cd.png"/>
+            <img src="/cover.jpg"/>
         </div>
       </div>
       <div className='footer'>
