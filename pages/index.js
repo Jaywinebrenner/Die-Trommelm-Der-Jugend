@@ -26,7 +26,7 @@ export default function Index({englishShowingGlobal}) {
         </div>
         <div className='home__cta'>
           <h1>{englishShowingGlobal ? "PRESENTS" : "PRÄSENTIERT"}</h1>
-          <h1>{englishShowingGlobal ? "THEIR DEBUT ALBUM" : "PRÄSENTIERT IHR DEBÜTALBUM"}</h1>
+          <h1>{englishShowingGlobal ? "THEIR DEBUT ALBUM" : "IHR DEBÜTALBUM"}</h1>
         </div>
         <div className="home__art">
             <img src="/cover.jpg"/>
