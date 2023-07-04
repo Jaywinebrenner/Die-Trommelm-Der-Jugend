@@ -1,6 +1,11 @@
 
 
 .home {
+  .hero__title {
+    @media(max-width: 800px){
+      margin-top: 32px;
+    }
+  }
     h1, h2, a {
         font-size: 12.5vw;
         margin: 0;
@@ -19,6 +24,7 @@
         margin: auto;
         padding-top: 64px;
         padding-bottom: 64px;
+
         img {
             width: 100%;
         }

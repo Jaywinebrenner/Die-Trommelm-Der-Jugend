@@ -17,6 +17,9 @@ const Nav = ({englishShowingGlobal}) => {
             <Link href="/lyrics">
                 <h2 style={{ textDecoration: router.pathname === "/lyrics" ? "underline" : "none" }}>{englishShowingGlobal ? "LYRICS" : "WÖRTER"}</h2>
             </Link>
+            <Link href="/contact">
+                <h2 style={{ textDecoration: router.pathname === "/contact" ? "underline" : "none" }}>{englishShowingGlobal ? "CONTACT" : "KONTAKT"}</h2>
+            </Link>
   
         </div>
     )

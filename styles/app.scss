@@ -157,11 +157,11 @@ h1, h2, h3 a {
 
 .nav {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     border-bottom: 15px solid black;
     padding: 27px 0;
     a, h2 {
-        font-size: 8.5vw;
+        font-size: 4.5vw;
         color: black;
         transition: .3s;
         text-decoration: none;
@@ -172,9 +172,18 @@ h1, h2, h3 a {
   }
 
   .footer {
-    border-top: 15px solid black;
-    h1 {
+    // border-top: 15px solid black;
+    text-align: center;
+    @media(max-width: 800px){
+        margin-top: 64px;
+    }
 
+    img {
+        width: 60%;
+        margin: 64px 0;
+        @media(max-width: 800px){
+            width: 80%;
+        }
     }
     .email {
         // font-size: 4rem;

@@ -32,10 +32,6 @@ export default function Index({englishShowingGlobal}) {
             <img src="/cover.jpg"/>
         </div>
       </div>
-      <div className='footer'>
-        <h1>{englishShowingGlobal ? "CONTACT" : "KONTAKT"}</h1>
-        <h1 className='email'>JAYWINEBRENNER@GMAIL.COM</h1>
-      </div>
     </div>
   )
 }
