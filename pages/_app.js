@@ -5,7 +5,7 @@ import React, {useEffect, useState} from 'react';
 
 function MyApp({ Component, pageProps }) {
 
-  const [englishShowingGlobal, setEnglishShowing] = useState(true)
+  const [englishShowingGlobal, setEnglishShowing] = useState(false)
 
   useEffect(() => {
     // new emojiCursor({ emoji: ["🥎", "🥎", "🥎"] });
