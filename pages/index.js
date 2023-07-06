@@ -21,7 +21,7 @@ export default function Index({englishShowingGlobal}) {
 
         <div className="home__hero">
           <div className='hero__title'><h1>DIE TROMMELN DER JUGEND</h1>
-          <h3 className='pronunciation'>{englishShowingGlobal ? "(Dee Trom Uln Dare You Gend)" : null }</h3>
+          {/* <h3 className='pronunciation'>{englishShowingGlobal ? "(Dee Trom Uln Dare You Gend)" : null }</h3> */}
           </div>
         </div>
         <div className='home__cta'>
