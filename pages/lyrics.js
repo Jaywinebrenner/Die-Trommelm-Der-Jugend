@@ -88,7 +88,7 @@ const Lyrics = ({englishShowingGlobal}) => {
         {lyricsObject.map((item, i) => {
           return(
             <div key={`modal-key=${i}`} className='lyrics__wrapper'>
-              <h2  onClick={() => openModal(i)}>{item.title}</h2>
+              <h2  onClick={() => openModal(i)}>{englishShowingGlobal ? item.englishTitle : item.title}</h2>
               <Modal
                 isOpen={clickedIndex === i ? true : false}
                 onRequestClose={closeModal}

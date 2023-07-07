@@ -3,6 +3,7 @@
 export const lyricsObject = [
     {
         title: "N.A.T.O.",
+        englishTitle: "N.A.T.O.",
         english: [
             "North Atlantic contract intoxication",
             "North Atlantic contract capitulation",
@@ -24,6 +25,7 @@ export const lyricsObject = [
     },
     {
         title: "Republik der Twerps",
+        englishTitle: "Republic of Twerps",
         english: [
             "Breakfast",
             "Lunch",
@@ -81,6 +83,7 @@ export const lyricsObject = [
     },
     {
         title: "Doms",
+        englishTitle: "Doms",
         english: [
             "Giant Dom.....",
             "NO!",
@@ -109,6 +112,7 @@ export const lyricsObject = [
     },
     {
         title: "Hand",
+        englishTitle: "Hand",
         english: [
             "Hand",
             "Atom hand", 
@@ -151,6 +155,7 @@ export const lyricsObject = [
     },
     {
         title: "Scheisse Klein",
+        englishTitle: "Little Shit",
         english: [
             "Mittenstein",
             "Poets pants",
@@ -192,6 +197,7 @@ export const lyricsObject = [
     },
     {
         title: "Bedenke Dies",
+        englishTitle: "Consider This",
         english: [
             "A group of children interview an aspiring clubhouse member",
             "A woodpecker taps Shaksperian sonnets in morse code upon the mailbox of an abandoned farmhouse.",
@@ -230,6 +236,7 @@ export const lyricsObject = [
     },
     {
         title: "Sabische Symbole",
+        englishTitle: "Sabian Symbols",
         english: [
             "A dove builds her nest out of obsolete phone cables.",
             "A giraffe's head peaks through a posh penthouse window. ",
@@ -249,6 +256,7 @@ export const lyricsObject = [
     },
     {
         title: "Apothekenglocken",
+        englishTitle: "Pharmacy Bells",
         english: [
             "Your mouth is bone dry",
             "Because the future scared you.",
@@ -281,6 +289,7 @@ export const lyricsObject = [
     },
     {
         title: "Verbunden",
+        englishTitle: "Connected",
         english: [
             "The skull of the foot is connected to the skull of the leg.",
             "The leg skull is connected to the pelvic skull.",
@@ -305,6 +314,7 @@ export const lyricsObject = [
     },
     {
         title: "Roy Zwei",
+        englishTitle: "Roy Two",
         german: [
             "Hier, sein Körper ruht konserviert",
             "Seine Trauernden verbeugen sich im Schmerz",
@@ -367,6 +377,7 @@ export const lyricsObject = [
     },
     {
         title: "Harlequin Defibrillator",
+        englishTitle: "Harlequin Defibrillator",
         english: [
             "1, 2, 3, 4",
             "Harlequin Defibrillator",
@@ -379,6 +390,7 @@ export const lyricsObject = [
     },
     {
         title: "Die Unbestreitbaren Vorteile von Milch Gegenüber Wein ",
+        englishTitle: "The Undeniable Advantages of Milk Over Wine",
         english: [
             "Riesling",
             "Müller Thurgau",
@@ -480,6 +492,7 @@ export const lyricsObject = [
     },
     {
         title: "Nordstream Pipeline",
+        englishTitle: "Nordstream Pipeline",
         english: [
             "What happened to our gas?",
             "Did a swordfish poke the wrong tube?",
@@ -533,6 +546,7 @@ export const lyricsObject = [
     },
     {
         title: "Goldene Groschen",
+        englishTitle: "Golden Dimes",
         english: [
             "The moonlight shimmers off the iridescent chrome of the ATM machine like a butterfly emerging from its chrysalis ",
             "The illuminated software interface glows with an otherworldly energy",
@@ -551,6 +565,7 @@ export const lyricsObject = [
     },
     {
         title: "Die Pest",
+        englishTitle: "The Plague",
         english: [
             "A flying locust drops a withered corn cob through a basketball hoop.",
             "The locust celebrates it's victory",
@@ -574,6 +589,7 @@ export const lyricsObject = [
     },
     {
         title: "Gehirnkühlschrank",
+        englishTitle: "Brain Refidgerator",
         english: [
             "Ejaculate",
             "Ovum",
