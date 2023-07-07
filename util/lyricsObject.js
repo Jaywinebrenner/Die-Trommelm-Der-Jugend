@@ -9,7 +9,7 @@ export const lyricsObject = [
             "North Atlantic contract colonization",
             "North Atlantic contract emasculation",
             "North Atlantic contract obliteration",
-            "North Atlantic contract sewage",
+            "North Atlantic contract sewerage",
 
         ],
         german: [
@@ -54,21 +54,25 @@ export const lyricsObject = [
             "Abendessen",
             "Schlafenszeit",
             "Alpträume",
-            "Den mais auspressen", 
+            
+            "Den Mais auspressen",
             "Braten sie die Adlereier",
-            "Backe den letzen Baren",
-            "Fruhstuck in der Republic der Twerps",
+            "Backe den letzten Bären",
+            "Frühstück in der Republik der Twerps",
+            
             "Mayonnaise auf Drohnen",
-            "Catsup auf u-booten"  ,
-            "Truthahnhaut-Satelliten",
-            "Mittagspause in der Republick der twerps" ,
-            "Mein Kind hat einen Kartoffelkopf" ,
-            "Und einen Herzschlag aus sosse",
-            "Reichlich Servietten fur immer",
-            "Abendbrot in der Republic der twerps",
+            "Ketchup auf U-Booten",
+            "Truthahn Haut Satelliten",
+            "Mittagspause in der Republik der Twerps",
+            
             "Mein Kind hat einen Kartoffelkopf",
-            "Und einen Herzschlag aus sosse",
+            "Und einen Herzschlag aus Sosse",
             "Reichlich Servietten für immer",
+            "Abendbrot in der Republik der Twerps",
+            "PAUSE",
+            "Apfelkuchen aus rotzigem Schnotter",
+            "Du verdienst eine Pause heute",
+            "aber du kriegst keine",
             "Abendbrot in der Republik der Twerps"
 
         ],
@@ -107,36 +111,41 @@ export const lyricsObject = [
         title: "Hand",
         english: [
             "Hand",
-            "Atom hand",
+            "Atom hand", 
             "Amoeba hand",
-            "Crab hand",
+            "Crab hand (dungeon crab pinches)",
             "Fish hand",
             "Toad hand",
             "Snake hand",
             "Rodent hand",
             "Dog hand",
-            "Monkey hand",
-            "Man hand",
-            "Devil hand",
-            "Angelhand",
-            "Machine hand"
+            "Monkey hand (Subliminal hand)",
+            "Man hand (Liminal hand)",
+            "Devil hand (Superliminal hand)",
+            "Angel hand",
+            "Machine hand",
+            "Atom hand", 
         ],
         german: [
             "Hand",
             "Atom hand",
-            "Amoeben hand",
-            "Krabben hand",
+            "Amöben hand",
+            "Krabben hand (Kerker Krabbe kneift)",
             "Fish hand",
-            "Kroeten hand",
+            "Kröten hand",
             "Schlangen hand",
             "Nagetier Hand",
-            "Hunda Hand",
-            "Affen Hand",
+            "Hunde Hand",
+            "Affenhand",
+            'Unterschwellige Hand',
             "Mann Hand",
-            "Teufelz Hand",
+            "Begrenzte Hand",
+            "Teufels Hand",
+            "Überschwellige Hand",
             "Engels Hand",
             "Maschinen Hand",
-            "Atom Hand ",
+            "Atom Hand"
+            
         ],
         audioUrl: "/album/Hand.mp3"
     },
@@ -199,18 +208,23 @@ export const lyricsObject = [
 
         ],
         german: [
-            "Eine Gruppe von Kindern interviewt ein aufstrebendes Clubhausmitglied.",
-            "Ein Specht klopft Shakespeare-Sonette im Morsecode auf den Briefkasten eines verlassenen Bauernhauses.",
-            "Neben dem Grabstein eines Hundes befindet sich eine amerikanische Miniaturflagge.",
+            "Eine Gruppe von Kindern interviewt ein aufstrebendes Klubhaus-Mitglied.",
+            "Ein Specht klopft Shakespeare-Sonetts im Morsecode auf den Briefkasten eines verlassenen Bauernhauses.",
+            "Eine Miniatur einer amerikanischen Flagge ist neben dem Grab eines Hundes platziert. ",
+            "Er war ein guter Hund",
+            
             "Ahh, ich sollte diese Dinge berücksichtigen",
             "Ich werde diese Dinge berücksichtigen",
-            "SIE werden diese Dinge berücksichtigen",
-            "Ein Geldautomat gibt einen mit Wachs versiegelten Umschlag aus.",
-            "Ein Highschool-Footballspiel findet im Krater eines schlafenden Vulkans statt.",
-            "Ein Schimpanse zeichnet das Unendlichkeitssymbol auf einer schmutzigen Lieferwagentür nach.",
+            "SIE sollten diese Dinge berücksichtigen",
+            
+            "Ein Geldautomat gibt einen mit einem Klecks aus Wachs versiegelten Umschlag aus.",
+            "Ein Hochschul-Fußballspiel  findet im Krater eines ruhenden Vulkans statt.",
+            "Ein Schimpanse zeichnet das Unendlichkeitssymbol auf eine schmutzige Lieferwagen-Tür.",
+            
             "Ahh, ich sollte diese Dinge berücksichtigen",
             "Ich werde diese Dinge berücksichtigen",
-            "SIE werden diese Dinge berücksichtigen"
+            "SIE sollten diese Dinge berücksichtigen",
+            
         ],
         audioUrl: "/album/Bedenke-Dies.mp3"
     },
@@ -236,20 +250,32 @@ export const lyricsObject = [
     {
         title: "Apothekenglocken",
         english: [
-            "Your mouth is bone dry because the future scared you.",
+            "Your mouth is bone dry",
+            "Because the future scared you.",
             "Listen to the sound of the pharmacy bells.",
-            "You have to sit and wait for them to unblock your tube.",
+            "You have to sit around and wait for them to unblock your tube.",
             "Tap your toes to the beat of the pharmacy bells.",
-            "You feel like a puke because your nipples are flaking like artichokes.",
-            "Stand with your chest next to the vibration of the pharmacy bells."
+            "You feel like a puke because your nipples are flaking",
+            "Like artichokes, hemorrhoids, halitosis, chickenpox",
+            "Oatmeal, skin rash, kidney stone chunks",
+            "Tap your toes,",
+            "Tap your toes to the beat of the pharmacy bells.",
+            "Pharmacy bells"
+
         ],
         german: [
-            "Dein Mund ist knochentrocken denn die Zukunft hat dich erschrocken.",
-            "Lausche dem Klang der Apothekenglocken.",
-            "Du musst rumhocken, und warten dass sie deine Röhre aufblocken. ",
-            "Tippe mit den Zehen im Takt der Apothekenglocken.",
-            "Du fühlst dich wie ein Kotzbrocken weil deine Brustwarzen schuppen wie Artischocken. ",
-            "Stellen dich mit der Brust neben die Vibration der Apothekenglocken."
+            "Dein Mund ist knochentrocken ",
+            "Denn die Zukunft hat dich erschrocken.",
+            "Lausche dem Klang der Apotheken Glocken.",
+            "Du musst rumhocken und warten, dass sie deine Röhre aufblocken.",
+            "Tippe mit den Zehen im Takt der Apotheken Glocken.",
+            "Du fühlst dich wie ein Kotzbrocken weil deine Brustwarzen schuppen ",
+            "Wie Artischocken, Hämorriden, Mundgeruch, Windpocken",
+            "Haferflocken, Hautausschlag, Nierenstein Brocken",
+            "Tippe mit den Zehen,",
+            "Tippe mit den Zehen im Takt der Apotheken Glocken.",
+            "Apotheken Glocken"
+
         ],
         audioUrl: "/album/Apothekenglocken.mp3"
     },
@@ -266,15 +292,14 @@ export const lyricsObject = [
             "The Smart Boot is connected to the foot skull."
         ],
         german: [
-            "Der Fußschädel ist mit dem Beinschädel verbunden." ,
-            "Der Beinschädel ist mit dem Beckenschädel verbunden. ",
-            "Der Beckenschädel ist mi dem",
+            "Der Fußschädel ist mit dem Beinschädel verbunden.",
+            "Der Beinschädel ist mit dem Beckenschädel verbunden.",
+            "Verbunden",
+            "Der Becken Schädel ist mit dem",
             "Wirbelsäulenschädel verbunden.",
-            "Der Wirbelsäulenschädel ist mit dem Kopfschädel verbunden. " ,
-            "Der Kopfschädel ist mit dem Windows-System verbunden.",
-            "Das Windows-System ist mit dem Skull Grid verbunden. ",    
-            "Das Skull Grid ist mit dem Smart Boot verbunden.  "     ,     
-            "Der Smart Boot ist mit dem Fußschädel verbunden."
+            "Der Wirbelsäulenschädel ist mit dem Kopfschädel verbunden.",
+            "Verbunden"
+
         ],
         audioUrl: "/album/Verbunden.mp3"
     },
@@ -516,11 +541,11 @@ export const lyricsObject = [
             "Golden dimes"
         ],
         german: [
-            "Das Mondlicht schimmert auf dem schillernden Chrom des Geldautomaten wie ein Schmetterling, der sich aus seiner Puppe erhebt",
+            "Das Mondlicht schimmert auf dem schillerndem Chrom des Geldautomate, wie ein Schmetterling der sich aus seiner Puppe erhebt",
             "Die beleuchtete Softwareoberfläche leuchtet mit einer jenseitigen Energie",
             "Eine mit beigem Leder behandschuhte Hand drückt rautenförmige Knöpfe in einem merkwürdigen sequentiellen Muster",
-            "Ein leises Summen mechanistischer Zahnräder berechnet komplexe Transaktionen",
-            "Goldene Groschen"
+            "Ein leises Summen mechanistischer Zahnräder berechnet komplexe Transaktionen"
+            
         ],
         audioUrl: "/album/Goldene-Groschen.mp3"
     },
@@ -528,7 +553,7 @@ export const lyricsObject = [
         title: "Die Pest",
         english: [
             "A flying locust drops a withered corn cob through a basketball hoop.",
-            "The locust celebrates it’s victory",
+            "The locust celebrates it's victory",
             "The plague is inevitable",
             "The corn is delicious",
             "One point for me and one you." ,
