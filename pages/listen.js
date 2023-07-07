@@ -21,7 +21,7 @@ const Listen = ({englishShowingGlobal}) => {
                 <a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=NH2wH7ZUfnc" className="img-wrapper">
                     <img className="youtube" src="/YT.png" />
                 </a>
-                <a target="_blank" rel="noreferrer" href="https://spotify.com" className="img-wrapper">
+                <a target="_blank" rel="noreferrer" href="https://open.spotify.com/album/7mo5ucuvyhBPXZBLh7DwgG" className="img-wrapper">
                     <img className="youtube" src="/spotify.png" />
                 </a>
                 <a target="_blank" rel="noreferrer" href="https://soundcloud.com/jaywinebrenner-dietrommelnderjugend/sets/die-trommeln-der-jugend" className="img-wrapper">
