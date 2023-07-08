@@ -245,11 +245,18 @@ export const lyricsObject = [
             "A rattle snake with two heads coils its body to spell the name, 'Sandra'."
         ],
         german: [
-            "Eine Taube baut ihr Haus aus veralteten Telefonkabeln.",
-            "Der Kopf einer Giraffe ragt durch ein nobles Penthouse-Fenster.",
-            "Eine gestohlene Schaufensterpuppe wird für Zielübungen verwendet.",
-            "Ein bandagierter Finger drückt auf eine Türklingel.",
-            "Eine Rasselschlange mit zwei Köpfen windet sich, um den Namen 'Sandra'"
+            "Eine Taube baut ihr Haus ",
+            "Aus veralteten Telefonkabeln",
+            "Der Kopf einer Giraffe ragt ",
+            "Durch ein nobles Penthouse Fenster",
+            "Eine gestohlene Schaufensterpuppe ",
+            "Wird für Zielübungen verwendet",
+            "Ein bandagierter Finger ",
+            "Drückt auf eine Türklingel",
+            "Eine Klapperschlange mit zwei Köpfen ",
+            "Buchstabiert den Namen Sandra",
+            "Sabische Symbole"
+            
 
         ],
         audioUrl: "/album/Sabische-Symbole.mp3"
@@ -304,10 +311,16 @@ export const lyricsObject = [
             "Der Fußschädel ist mit dem Beinschädel verbunden.",
             "Der Beinschädel ist mit dem Beckenschädel verbunden.",
             "Verbunden",
-            "Der Becken Schädel ist mit dem",
-            "Wirbelsäulenschädel verbunden.",
+            "Der Becken Schädel ist mit dem Wirbelsäulenschädel verbunden.",
             "Der Wirbelsäulenschädel ist mit dem Kopfschädel verbunden.",
+            "Verbunden",
+            "Der Kopfschädel ist mit dem Windowssystem verbunden",
+            "Das Windowssystem ist mit dem Schädelnetz verbunden",
+            "Verbunden",
+            "Das Schädelnetz ist mit dem schlauen Stiefel verbunden",
+            "Der schlaue Stiefel ist mit dem Fußschädel verbunden",
             "Verbunden"
+
 
         ],
         audioUrl: "/album/Verbunden.mp3"
@@ -555,10 +568,11 @@ export const lyricsObject = [
             "Golden dimes"
         ],
         german: [
-            "Das Mondlicht schimmert auf dem schillerndem Chrom des Geldautomate, wie ein Schmetterling der sich aus seiner Puppe erhebt",
+            "Das Mondlicht schimmert auf dem schillerndem Chrom des Geldautomaten, wie ein Schmetterling der sich aus seiner Puppe erhebt",
             "Die beleuchtete Softwareoberfläche leuchtet mit einer jenseitigen Energie",
             "Eine mit beigem Leder behandschuhte Hand drückt rautenförmige Knöpfe in einem merkwürdigen sequentiellen Muster",
-            "Ein leises Summen mechanistischer Zahnräder berechnet komplexe Transaktionen"
+            "Ein leises Summen mechanistischer Zahnräder berechnet komplexe Transaktionen",
+
             
         ],
         audioUrl: "/album/Goldene-Groschen.mp3"
