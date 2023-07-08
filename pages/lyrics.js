@@ -3,9 +3,6 @@ import React, { useState, useEffect } from 'react';
 import "../util/lyricsObject"
 import { lyricsObject } from '../util/lyricsObject';
 
-
-
-
 const Lyrics = ({englishShowingGlobal}) => {
 
   const [english, setEnglish ] = useState(true)
@@ -118,10 +115,12 @@ const Lyrics = ({englishShowingGlobal}) => {
                   </audio>
                 </div>
   
-                <h2 className='modal-lyric-title'>{item.title}</h2>
+                <h2 className='modal-lyric-title'>{englishShowingGlobal ? item.englishTitle : item.title}</h2>
                 {englishShowingGlobal && <div>{item.english.map((lyric, i)=> {
                   return (
-                  <h3 key={`modal-lyric=${i}`} className='modal-lyric-line'>{lyric}</h3>
+                    <>
+                      <h3 key={`modal-lyric=${i}`} className='modal-lyric-line'>{lyric}</h3>
+                  </>
                   )
                 })}</div>}
 
