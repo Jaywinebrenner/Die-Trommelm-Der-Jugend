@@ -526,8 +526,8 @@ export const lyricsObject = [
         audioUrl: "/album/Roy.mp3"
     },
     {
-        title: "Nordstream Pipeline",
-        englishTitle: "Nordstream Pipeline",
+        title: "Nord Stream Pipeline",
+        englishTitle: "Nord Stream Pipeline",
         english: [
             "What happened to our gas?",
             "Did a swordfish poke the wrong tube?",
