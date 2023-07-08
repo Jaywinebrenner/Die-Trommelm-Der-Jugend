@@ -298,14 +298,18 @@ export const lyricsObject = [
         title: "Verbunden",
         englishTitle: "Connected",
         english: [
-            "The skull of the foot is connected to the skull of the leg.",
+            "The foot skull  is connected to the leg skull.",
             "The leg skull is connected to the pelvic skull.",
-            "The pelvic skull is connected to the spinal skull.",
+            "Connected",
+            "The pelvic skull is connected to the spinal scull",
             "The spinal skull is connected to the head skull.",
-            "The head skull is connected to the windows system.",
-            "The Windows system is connected to the Skull Grid.",
-            "The Skull Grid is connected to the Smart Boot.",
-            "The Smart Boot is connected to the foot skull."
+            "Connected",
+            "The head skull is connected to the windows system" ,
+            "The windows system is connected to the skull grid",
+            "Connected",
+            "The skull grid is connected to the smart boot",
+            "The smart boot is connected to the foot skull",
+            "Connected"
         ],
         german: [
             "Der Fußschädel ist mit dem Beinschädel verbunden.",
@@ -583,11 +587,10 @@ export const lyricsObject = [
         title: "Goldene Groschen",
         englishTitle: "Golden Dimes",
         english: [
-            "The moonlight shimmers off the iridescent chrome of the ATM machine like a butterfly emerging from its chrysalis ",
+            "The moonlight shimmers on the dazzling chrome of an ATM machine,like a butterfly emerging from its cocoon",
             "The illuminated software interface glows with an otherworldly energy",
-            "A hand gloved in beige leather depresses diamond shaped buttons in a curious sequential pattern",
-            "A soft hum of mechanistic gears calculate complex transactions",
-            "Golden dimes"
+            "A beige leather gloved hand presses diamond-shaped buttons in an odd sequential pattern",
+            "A soft hum of mechanistic gears calculates complex transactions"
         ],
         german: [
             "Das Mondlicht schimmert auf dem schillerndem Chrom des Geldautomaten, wie ein Schmetterling der sich aus seiner Puppe erhebt",
@@ -603,23 +606,34 @@ export const lyricsObject = [
         title: "Die Pest",
         englishTitle: "The Plague",
         english: [
-            "A flying locust drops a withered corn cob through a basketball hoop.",
-            "The locust celebrates it's victory",
+            "A flying grasshopper throws a wilted corn cob through a basketball hoop",
+            "All right, a basketball hoop",
+            "The grasshopper celebrates its victory",
             "The plague is inevitable",
             "The corn is delicious",
-            "One point for me and one you." ,
+            "Yes",
+            "The corn is delicious",
+            "One point for me and one point for you",
+            "One point for me and one point for you.",
             "But the plague has all the points",
-            "And the Plague is for me and you"
-
+            "The plague is inevitable",
+            "The plague is for me",
+            "and you"
         ],
         german: [
-            "Eine fliegende Heuschrecke lässt einen verwelkten Maiskolben durch einen Basketballkorb fallen.",
+            "Eine fliegende Heuschrecke wirft, einen verwelkten Maiskolben durch einen Basketballkorb",
+            "Alles klar, Basketballkorb",
             "Die Heuschrecke feiert ihren Sieg",
             "Die Pest ist unvermeidlich",
             "Der Mais ist köstlich",
-            "Ein Punkt für mich und einer für dich.",
+            "Ja",
+            "Der Mais ist köstlich",
+            "Ein Punkt für mich und ein Punkt für dich",
+            "Ein Punkt für mich und ein Punkt für dich.",
             "Aber die Pest hat alle Punkte",
-            "Das ist für mich und dich"
+            "Die Pest ist unvermeidlich",
+            "Die Pest ist für mich ",
+            "und dich"
         ],
         audioUrl: "/album/Die-Pest.mp3"
     },
