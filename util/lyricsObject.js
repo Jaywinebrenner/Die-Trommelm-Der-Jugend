@@ -504,6 +504,28 @@ export const lyricsObject = [
         audioUrl: "/album/Die-Unbestreitbaren-Vorteile-von-Milch-Gegenüber-Wein.mp3"
     },
     {
+        title: "Der Bär Ruxpin",
+        englishTitle: "The Bear Ruxpin",
+        english: [
+            "ERROR 404"
+        ],
+        german: [
+            "FEHLER 404"
+        ],
+        audioUrl: "/album/Der-Bär-Ruxpin.mp3"
+    },
+    {
+        title: "Roy",
+        englishTitle: "Roy",
+        english: [
+            "ERROR 404"
+        ],
+        german: [
+            "FEHLER 404"
+        ],
+        audioUrl: "/album/Roy.mp3"
+    },
+    {
         title: "Nordstream Pipeline",
         englishTitle: "Nordstream Pipeline",
         english: [
